@@ -10,6 +10,7 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   const [isTvScreen, setIsTvScreen] = useState(window.innerWidth >= 1024);
 
+  
   useEffect(() => {
     const handleResize = () => {
       setIsTvScreen(window.innerWidth >= 1024);
