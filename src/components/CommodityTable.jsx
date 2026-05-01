@@ -118,7 +118,7 @@ const CommodityTable = ({ title, items }) => {
 
           backdropFilter: "blur(0.3vw)",
           border: "0.1vw solid #eee2d73d",
-          boxShadow: '0px 0px 25px rgba(69, 79, 170, 0.25) inset',
+          boxShadow: "0px 0px 25px rgba(69, 79, 170, 0.25) inset",
 
           margin: ".4vw",
         }}
@@ -168,7 +168,7 @@ const CommodityTable = ({ title, items }) => {
             textAlign: "center",
           }}
         >
-          BUY AED
+          BUY (AED)
         </Typography>
 
         <Typography
@@ -184,7 +184,7 @@ const CommodityTable = ({ title, items }) => {
             textAlign: "center",
           }}
         >
-          SELL AED{" "}
+          SELL (AED)
         </Typography>
       </Box>
 
@@ -224,7 +224,7 @@ const CommodityTable = ({ title, items }) => {
               background: "#aa8a4b15",
               borderRadius: "1vw",
               border: "0.1vw solid #eee2d73d",
-              boxShadow: '0px 0px 25px  rgba(69, 79, 170, 0.25)  inset',
+              boxShadow: "0px 0px 25px  rgba(69, 79, 170, 0.25)  inset",
               margin: ".4vw",
             }}
           >
