@@ -14,7 +14,6 @@ const PoweredByAurify = () => {
         gap: "0.6vw",
         padding: "0.8vw 1.4vw",
         // margin: "0 auto",
-        mt: "auto",
       }}
     >
       <Typography
@@ -23,7 +22,7 @@ const PoweredByAurify = () => {
         target="_blank"
         rel="noopener noreferrer"
         sx={{
-          fontSize: { xs: "15px", md: ".8vw" },
+          fontSize: { xs: "15px", md: "1vw" },
 
           fontWeight: 500,
           color: "#fff",
@@ -41,7 +40,7 @@ const PoweredByAurify = () => {
           src={AurifyLogo}
           alt="Aurify"
           sx={{
-            height: { xs: "5vw", md: "1vw" },
+            height: { xs: "5vw", md: "1.5vw" },
             objectFit: "contain",
           }}
         />

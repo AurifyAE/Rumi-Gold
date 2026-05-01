@@ -16,6 +16,7 @@ import mainLogo from "/images/logo.svg";
 import WorldClockHorizontal from "../components/WorldClock";
 import SystemClock from "../components/SystemClock";
 import PoweredByAurify from "../components/PoweredByAurify";
+import ImageSlide from "../components/ImageSlide";
 
 function TvScreen() {
   const [showLimitModal, setShowLimitModal] = useState(false);
@@ -232,7 +233,6 @@ function TvScreen() {
             objectFit: "cover",
           }}
         />
-       
       </Box>
 
       {/* Grid */}
@@ -279,7 +279,17 @@ function TvScreen() {
           <WorldClockHorizontal />
           <SystemClock />
           <SpotRate />
-          <PoweredByAurify />
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              width: "100%",
+            }}
+          >
+            <PoweredByAurify />
+            <ImageSlide />
+          </Box>
         </Grid>
 
         <Grid
