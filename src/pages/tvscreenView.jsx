@@ -225,7 +225,8 @@ function TvScreen() {
       >
         <Box
           component="img"
-          src="/images/background.png"
+          // src="/images/background.png"
+          src="/images/background.webp"
           alt="background"
           sx={{
             height: "100%",
