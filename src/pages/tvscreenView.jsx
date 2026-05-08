@@ -237,77 +237,9 @@ function TvScreen() {
       </Box>
 
 
-      {/* Grid */}
+     
 
-      <Grid
-        container
-        spacing={10}
-        minHeight="100%"
-        // alignItems="flex-start"
-        justifyContent="space-between"
-        flexWrap="wrap"
-        zIndex="1"
-        position="relative"
-        margin="0"
-        padding="0 2vw "
-        alignItems="center"
-        width="100%"
-      >
-        <Grid
-          xs={12}
-          md={6}
-          display="flex"
-          alignItems="center"
-          flexDirection="column"
-          justifyContent="spaceBetween"
-          padding="1vw"
-          gap="1vw"
-        >
-          <Box
-            sx={{
-              height: "auto",
-              width: { xs: "40vw", sm: "20vw" },
-              marginBottom: { xs: "20px", sm: "0vw" },
-            }}
-          >
-            <img src={mainLogo} alt="" className="object-contain w-full" />
-          </Box>
-
-          <CommodityTable items={commodities} />
-        </Grid>
-
-        {/* Side: SpotRate & Date Time */}
-        <Grid xs={12} md={6} padding="1vw" gap="1vw" display="grid">
-          <WorldClockHorizontal />
-          <SystemClock />
-          <SpotRate />
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-              width: "100%",
-            }}
-          >
-            <PoweredByAurify />
-            <ImageSlide />
-          </Box>
-        </Grid>
-
-        <Grid
-          md={12}
-          sx={{
-            mt: { xs: "20px", md: "0" },
-            position: { xs: "unset", md: "fixed" },
-            zIndex: "1",
-            bottom: "0",
-            width: "100%",
-            left: "0",
-          }}
-        >
-          <NewsTicker newsItems={news} />
-        </Grid>
-      </Grid>
+     
     </Box>
   );
 }
